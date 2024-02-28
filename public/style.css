@@ -1,0 +1,45 @@
+.dropdown:hover > .dropdown-menu {
+
+    display: block;
+
+}
+
+
+
+table td, table thead tr th{
+
+    vertical-align: middle !important;
+
+    text-align: center !important;
+
+}
+
+.green_status {
+    background-color: #157347;
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+
+}
+
+.yellow_status {
+    background-color: #e8ffc3;
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    
+}
+
+.red_status {
+    background-color: #bb2d3b;
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    
+}

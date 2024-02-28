@@ -1,0 +1,6 @@
+[24-Oct-2023 21:35:36 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/customer/www/pluscontrol.grupo-plus.com/vendor/composer/platform_check.php on line 24
+[07-Dec-2023 19:17:13 CST6CDT] PHP Fatal error:  Uncaught Error: Class "ComposerAutoloaderInit9abec43bb88253815bdaaed28df1ed46" not found in /home/customer/www/pluscontrol.grupo-plus.com/vendor/autoload.php:25
+Stack trace:
+#0 /home/customer/www/pluscontrol.grupo-plus.com/public_html/index.php(34): require()
+#1 {main}
+  thrown in /home/customer/www/pluscontrol.grupo-plus.com/vendor/autoload.php on line 25

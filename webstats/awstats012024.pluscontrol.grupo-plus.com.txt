@@ -1,0 +1,330 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202401 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.pluscontrol.grupo-plus.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2690                
+POS_VISITOR 6757                
+POS_DAY 7863                
+POS_DOMAIN 3456                
+POS_LOGIN 3740                
+POS_ROBOT 3895                
+POS_WORMS 4302                
+POS_EMAILSENDER 4433                
+POS_EMAILRECEIVER 4576                
+POS_SESSION 8175                
+POS_SIDER 8381                
+POS_FILETYPES 4711                
+POS_DOWNLOADS 4931                
+POS_OS 4979                
+POS_BROWSER 5106                
+POS_SCREENSIZE 5245                
+POS_UNKNOWNREFERER 5319                
+POS_UNKNOWNREFERERBROWSER 5465                
+POS_ORIGIN 5606                
+POS_SEREFERRALS 5747                
+POS_PAGEREFS 5891                
+POS_SEARCHWORDS 6039                
+POS_KEYWORDS 6191                
+POS_MISC 2354                
+POS_ERRORS 6250                
+POS_CLUSTER 3596                
+POS_SIDER_404 6394                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240111043420 36520 7542501 0
+FirstTime 20240101022845
+LastTime 20240111043420
+LastUpdate 20240111044526 36520 20095 16423 0 2
+TotalVisits 40                  
+TotalUnique 20                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 23                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1916 1961 5370507 3 4 1184517
+1 1860 1860 1539807 12 12 3460135
+2 1647 1666 3307694 0 0 0
+3 1730 1749 3336231 1 2 2341
+4 1323 1384 6549188 1 17 215013
+5 866 885 2538308 1 1 21255
+6 126 126 92703 0 0 0
+7 2 2 11824 0 0 0
+8 0 0 0 0 1 2309
+9 0 0 0 7 9 32651
+10 5 5 2303 5 13 494810
+11 27 27 13356 0 3 38248
+12 901 901 660845 1 3 13296
+13 969 969 740385 2 2 17346
+14 791 791 682037 0 0 0
+15 826 826 679228 1 6 50104
+16 832 832 692899 0 0 0
+17 811 811 683398 1 2 5936
+18 938 939 829363 0 20 28055
+19 1258 1258 1001894 2 6 43051
+20 1748 1748 1395330 0 6 7508
+21 1701 1701 1422803 0 0 0
+22 1735 1754 3277845 0 0 0
+23 1674 1674 1374679 2 4 34551
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+ve 23434 23461 21451676
+co 212 212 86570
+us 38 194 14652557
+de 2 2 11824
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+Googlebot/ 19 46890 20240110182219 9
+yeti 16 208365 20240110043515 1
+baidu 9 474939 20240103102859 0
+no_user_agent 3 63765 20240107050854 0
+YandexBot/ 2 5936 20240109173630 1
+Baiduspider/ 1 5912 20240103102847 0
+yandex 1 34534 20240109112846 0
+bingbot/ 1 44 20240105034849 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 38 804923 0 0
+png 39 12547101 0 0
+woff2 33 1735352 0 0
+html 14 67621 0 0
+js 20 1020635 0 0
+jpg 9 496539 0 0
+Unknown 23639 19468208 0 0
+svg 77 62248 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+linuxandroid 27 20
+win10 2 1
+Unknown 23620 23620
+linux 220 45
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 4
+chrome120.0.0.0 53 26
+chrome120.0.6099.71 194 38
+Unknown 23620 23620
+chrome108.0.0.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+okhttp/4.9.2 20240111040154
+ESP32HTTPClient 20240111043420
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+okhttp/4.9.2 20240111040154
+ESP32HTTPClient 20240111043420
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 23635 23635
+From1 0 0
+From2 0 0
+From3 0 0
+From4 51 234
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+401 2 98
+302 5 2125
+499 2 0
+500 5 4626962
+405 7 60711
+404 36 120845
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 3
+/app-ads.txt 34 -
+/ads.txt 1 -
+/sitemap_index.xml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 23
+45.185.16.89 22570 22571 19075041 20240111043420 20240111000003 /api/storeEspData
+201.221.115.98 330 356 2165494 20240111034437 20240111030100 /api/getDeviceInfoInterval
+190.153.9.230 314 314 116156 20240111040154 20240111033636 /api/getDeviceInfoInterval
+138.84.41.49 212 212 86570 20240110205332
+186.185.36.17 114 114 49015 20240110224043
+186.185.12.164 58 58 26859 20240109211400
+66.249.87.165 20 77 4374729 20240108045340
+201.221.115.110 19 19 4982 20240107001746
+186.185.24.246 14 14 7040 20240110181311
+186.185.59.114 11 11 5178 20240109212246
+74.125.218.201 1 3 616580 20240111001654
+66.249.87.163 0 5 606563 
+186.185.100.83 2 2 974 20240110103102
+66.249.87.166 1 30 3843968 20240103045501
+74.125.218.200 0 6 75398 
+74.125.218.199 4 15 1155326 20240111001705
+64.225.107.74 2 2 11824 20240108070735
+74.125.216.67 5 13 296097 20240101234346
+66.249.87.164 0 3 840755 
+66.249.87.162 5 16 399986 20240109052036
+66.249.87.167 1 14 887295 20240105032112
+186.185.1.218 2 2 937 20240110211250
+74.125.216.68 1 12 1555860 20240101022845
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 10
+20240101 6 25 1851957 3
+20240103 2 25 1716776 2
+20240104 6 6 2739 1
+20240105 10 48 3694608 3
+20240106 14 14 2452 1
+20240107 10 29 1849834 2
+20240108 7 26 1859128 2
+20240109 3775 3795 4986525 8
+20240110 15392 15392 12679163 11
+20240111 4464 4509 7559445 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 7
+5mn-15mn 2
+15mn-30mn 1
+2mn-5mn 3
+0s-30s 18
+30s-2mn 2
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 32
+/api/getDeviceInfo 10582 11779024 3 0
+/api/storeEspData 10521 6850586 0 3
+/api/getDeviceInfoInterval 1463 656601 13 19
+/api/waterSupplyRestored 375 24375 0 0
+/api/setTimers 229 16488 0 0
+/api/interruptedWaterSupply 176 11440 0 0
+/api/getIndexData 53 62905 9 0
+/api/saveToken 52 3380 0 1
+/api/getAppStoresVersion 50 2800 0 0
+/api/setControl 44 3432 0 0
+/ 14 67621 10 6
+/users/create 2 3243 0 0
+/api/mediumLevelNotification 1 65 0 0
+/api/overflowAlert 4 260 0 0
+/api/auth/login 7 2369 1 0
+/api/setDimensions 35 2730 0 0
+/assets_page/fonts/thicccboi/THICCCBOI-Regular.woff2 8 211616 1 0
+/api/lowLevelNotification 6 390 0 0
+/api/users/searchUser 1 213 0 0
+/esps/create 2 3699 0 0
+/users/2/edit 2 3246 0 0
+/api/getMonthlyReport 1 336 0 0
+/assets_page/fonts/unicons/Unicons.woff2 9 1102392 1 3
+/esps/2/edit 2 3723 0 0
+/api/getDailyReport 17 15896 0 0
+/api/users/associate 1 66 0 0
+/users 4 6661 0 0
+/api/getWeeklyReport 2 401 0 0
+/home 6 12701 0 0
+/assets_page/fonts/thicccboi/THICCCBOI-Medium.woff2 8 210880 2 0
+/login 1 1178 0 0
+/assets_page/fonts/thicccboi/THICCCBOI-Bold.woff2 8 210464 0 5
+END_SIDER
