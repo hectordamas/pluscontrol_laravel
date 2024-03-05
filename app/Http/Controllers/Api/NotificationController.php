@@ -30,7 +30,7 @@ class NotificationController extends Controller {
         if (!$lastNotification) {
           $shouldSendNotification = true;
         } else {
-          $shouldSendNotification = Carbon::now()->diffInHours($lastNotification->created_at) >= 2;
+          $shouldSendNotification = Carbon::now()->diffInMinutes($lastNotification->created_at) >= 30;
         }
     
         if ($shouldSendNotification) {
