@@ -355,7 +355,7 @@ class IndexController extends Controller
     public function getAppStoresVersion() {
         return response()->json([
             'version' => '',
-            'storeVersions' => ['1.0.9', '1.0.10', '1.0.11']
+            'storeVersions' => ['1.0.11']
         ]);
     }
 }
