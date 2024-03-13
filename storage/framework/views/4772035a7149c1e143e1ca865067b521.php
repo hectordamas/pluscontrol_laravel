@@ -240,6 +240,8 @@
           <!-- /column -->
         </div>
         <!-- /.row -->
+
+
       </div>
       <!-- /.container -->
     </section>
@@ -247,4 +249,4 @@
 <?php $__env->stopSection(); ?>
 
 
-<?php echo $__env->make('layouts.index', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\Proyectos en Curso\pluscontrol\pluscontrol_laravel\resources\views/welcome.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.index', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH E:\Proyectos en Curso\pluscontrol\pluscontrol_laravel\resources\views/welcome.blade.php ENDPATH**/ ?>

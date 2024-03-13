@@ -5,9 +5,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/eliminar-cuenta', function() {
-    return view('eliminarCuenta');
+
+Route::get('/solicitud', function(){
+    return view('publico.formularioDeSolicitud');
 });
+
+Route::post('/enviarSolicitud', [App\Http\Controllers\FormController::class, 'submit']);
+
+Route::get('/eliminar-cuenta', function() { return view('eliminarCuenta'); });
 
 Auth::routes(['register' => false]);
 
